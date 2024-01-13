@@ -36,6 +36,17 @@ git config --list --global
 # Me permite visualizar los cambios realizados respecto a una versión anterior
 git diff 
 
+# Versionamiento de código
+# 0.0.0 
+# 1° Número: Versión mayor (cambio representativo en el código)
+# 2° Número: Versión menor (adición de funcionalidad)
+# 3° Número: Versión micro (corrección de errores u optimización de código)  
+
+# Impactos 
+# Cambio en version micro: Afecta solo micro
+# Cambio en version menor: Afecta menor y micro
+# Cambio en version mayor: Afecta mayor, menor y micro
+
 # git branch
 # Me permite visualizar las ramas del repositorio 
 
@@ -48,6 +59,7 @@ git diff
 # * Corrección de errores 
 # * Modificación de interfaz de usuario 
 git branch 
+
 
 # git branch nombre_de_nueva_rama
 # Crear rama
