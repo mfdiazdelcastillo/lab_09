@@ -60,7 +60,10 @@ git diff
 # * Modificación de interfaz de usuario 
 git branch 
 
-
 # git branch nombre_de_nueva_rama
 # Crear rama
 git branch v1 
+
+# merge rama_a_fusionar
+# Me permite fusionar dos ramas. El comando fusiona con la rama que esta activa 
+git merge v1-merge 
