@@ -26,6 +26,10 @@ git add git.ps1 # Voy a seguir los cambios de git.ps1
 # Me permite registrar los cambios de un archivo(s)
 git commit -m"Inicio de proyecto" # Registro un cambio (versión) con un mensaje
 
+# git commit --amend
+# Enmendar el mensaje del ultimo commit 
+git commit --amend
+
 # git config
 # Configurar parámetros de git 
 git config --global user.name "María Fernanda Diaz del Castillo Posso"
