@@ -60,7 +60,14 @@ git diff
 # * Modificación de interfaz de usuario 
 git branch 
 
-
 # git branch nombre_de_nueva_rama
 # Crear rama
 git branch v1 
+
+# git checkout nombre de rama
+# Me permite moverme entre ramas
+git checkout master 
+
+# git checkout -b nueva_rama
+# Crear y se mueve a una rama
+git checkout -b v1-checkout
